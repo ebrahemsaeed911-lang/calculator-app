@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- ظل خفيف لإعطاء عمق للتصميم -->
+    <filter id="drop-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- خلفية اللوجو الخارجية -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="#181f32" filter="url(#drop-shadow)" />
+
+  <!-- شاشة الحاسبة -->
+  <rect x="80" y="80" width="352" height="100" rx="20" fill="#0f1524" />
+  
+  <!-- خط شاشة إلكتروني مميز -->
+  <rect x="340" y="125" width="60" height="10" rx="5" fill="#d03f2f" />
+
+  <!-- أزرار الحاسبة الرئيسية (الصف الأول) -->
+  <rect x="80" y="210" width="90" height="70" rx="16" fill="#e6e6e6" />
+  <rect x="195" y="210" width="90" height="70" rx="16" fill="#e6e6e6" />
+  <rect x="310" y="210" width="90" height="70" rx="16" fill="#647198" />
+
+  <!-- أزرار الحاسبة (الصف الثاني) -->
+  <rect x="80" y="300" width="90" height="70" rx="16" fill="#e6e6e6" />
+  <rect x="195" y="300" width="90" height="70" rx="16" fill="#e6e6e6" />
+  <rect x="310" y="300" width="90" height="70" rx="16" fill="#e6e6e6" />
+
+  <!-- الصف السفلي (زر إعادة الضبط وزر اليساوي الأحمر) -->
+  <rect x="80" y="390" width="205" height="50" rx="16" fill="#647198" />
+  <rect x="310" y="390" width="90" height="50" rx="16" fill="#d03f2f" />
+
+  <!-- رموز الأزرار (+) و (=) -->
+  <!-- علامة الزائد -->
+  <path d="M355 235 H355 V255 H355 M345 245 H365" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- علامة اليساوي -->
+  <path d="M340 410 H370 M340 420 H370" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+</svg>
